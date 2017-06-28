@@ -1,4 +1,6 @@
 function myFunction() {
-   document.getElementById("demo").innerHTML = "DEATH";
+    document.getElementById("demo").innerHTML = "Theres no rain.";
 }
+
+
 
