@@ -1,9 +1,21 @@
-body {
-    background-color: grey;
+html body {
+    background-color: black;
+    padding: 40px;
+    border-style: solid;
+    border-color: red; 30px;
 }
-
+.jumbotron {
+    margin-left: 168px;
+    height: 700px;
+    width: 1000px;
+    background-color: grey;
+    border-style: solid;
+    border-color: red; 30px;
+    border-radius: 55px;
+}
 h1 {
-    color: black;
+    font-style: oblique;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -11,6 +23,16 @@ p {
     font-family: sans-serif;
     font-size: 20px;
 }
-footer {
-    text-align: center;
+img {
+    border-radius: 25px;
+}
+.container {
+    background-color: dimgrey;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: red; 20px;
 }
