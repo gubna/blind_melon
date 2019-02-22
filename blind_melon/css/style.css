@@ -1,0 +1,61 @@
+html body {
+    background-image: radial-gradient(black, grey, black, grey, black, grey, black, grey);
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    30px;
+    opacity: .80;
+}
+
+.jumbotron {
+    text-align: center;
+    height: 75%;
+    width: 88%;
+    margin-left: 75px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    30px;
+    border-radius: 35px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Secular One', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hoon {
+    padding-top: -20px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.container {
+    background-color: dimgrey;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: black;
+    20px;
+}
