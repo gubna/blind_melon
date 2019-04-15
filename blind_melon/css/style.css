@@ -1,61 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
 html body {
+    padding: 2rem;
     background-image: radial-gradient(black, grey, black, grey, black, grey, black, grey);
-    padding: 15px;
-    border-style: solid;
-    border-color: black;
-    30px;
-    opacity: .80;
+    opacity: .82;
 }
 
-.jumbotron {
+#jumbotron {
+    width: 83vw;
+    height: 60vh;
+    background-color: #2a4545;
+    border: solid 4px #000000;
+    border-radius: 15px;
     text-align: center;
-    height: 75%;
-    width: 88%;
-    margin-left: 75px;
-    background-color: grey;
-    border-style: solid;
-    border-color: black;
-    30px;
-    border-radius: 35px;
+    padding: 1em;
+    margin-left: 4rem;
 }
-
 h1 {
-    font-family: 'Abril Fatface', cursive;
+    color: #000000;
+    font-family: 'Lobster', cursive;
+}
+h5 {
+    color: black;
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
     text-align: center;
 }
-
 h3 {
-    font-family: 'Secular One', sans-serif;
-    font-weight: bold;
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
 }
-
-h4 {
-    font-family: 'Secular One', sans-serif;
-}
-
 p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.hoon {
-    padding-top: -20px;
-}
-
-img {
-    border-radius: 25px;
+#jumbotron img {
+    width: 35vw;
+    height: 35vh;
+    border: solid 8px #000000;
+    border-radius: 4px;
 }
 
 .container {
-    background-color: dimgrey;
-    border-radius: 25px;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    border-style: solid;
-    border-color: black;
-    20px;
+    background-color: darkslategrey;
+    border-radius: 15px;
+    padding: 3em;
+    border: solid 4px #000000;
+    margin-top: 2em;
 }
